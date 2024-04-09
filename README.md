@@ -1,85 +1,25 @@
+# HumanLessAI
 
-# Python Project Template
+## Overview
+Just remember the following things, to get involved in this project: 
+- **Manage Everything That Matters**
+    - Convert all factors capable of influencing model behavior into readable & executable configurations. <!-- 모델 성능이나 행동에 영향을 줄 수 있는 모든 것들을 읽기 쉽고 실행 가능한 설정으로 만들어서 반드시 기록하라. // 사람의 기억력과 커뮤니케이션 능력을 신뢰하지 말아라. -->
+    - e.g., dataset versioning, data preprocessing logic updates, adjustments in loss functions, learning rates, evaluation protocols, etc.
+- **Collaborate Widely, Automate Wisely**
+    - Amplify your efforts through collaboration, not only with humans, but also with AI. <!-- 혼자 일하기보다 열 사람이 함께 일하라. 그리고 그보다 더 많은 AI가 쉬지 않고 일을 할 수 있도록 만들어라. // 사람의 생산성을 지치지 않는 AI로 복제하라 -->
+    - e.g., AI-driven research discussion, auto commenting workflow, AI-based consistency check on logic implementations, automatic cloud launching, automatic tutorial generation, etc.
+- **Share and Inspire**
+    - Make your small experiments known and find significance in even the minor discoveries. Inspire and be inspired by allowing more people to connect with your vision and imagination. <!-- 당신의 아주 사소한 실험도 공유하고, 당신의 작은 발견에도 의미를 부여하라. 더 많은 사람이 당신의 위대한 상상력에 공감하게 만들어라. // 공감을 얻지 못 하는 연구는 지속되기 어렵다 -->
+    - e.g., technical blogs, seminars, paper publications, open discussions, participating in academic reviews, etc. 
 
-A low dependency and really simple to start project template for Python Projects.
+## Key Features (TBU)
 
-See also 
-- [Flask-Project-Template](https://github.com/rochacbruno/flask-project-template/) for a full feature Flask project including database, API, admin interface, etc.
-- [FastAPI-Project-Template](https://github.com/rochacbruno/fastapi-project-template/) The base to start an openapi project featuring: SQLModel, Typer, FastAPI, JWT Token Auth, Interactive Shell, Management Commands.
+- **Dynamic Configuration Tracking**
+- **AI Software Engineer**
+- **Experimental Hub**
 
-### HOW TO USE THIS TEMPLATE
-
-> **DO NOT FORK** this is meant to be used from **[Use this template](https://github.com/rochacbruno/python-project-template/generate)** feature.
-
-1. Click on **[Use this template](https://github.com/rochacbruno/python-project-template/generate)**
-3. Give a name to your project  
-   (e.g. `my_awesome_project` recommendation is to use all lowercase and underscores separation for repo names.)
-3. Wait until the first run of CI finishes  
-   (Github Actions will process the template and commit to your new repo)
-4. If you want [codecov](https://about.codecov.io/sign-up/) Reports and Automatic Release to [PyPI](https://pypi.org)  
-  On the new repository `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN` (get the tokens on respective websites)
-4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
-5. Then clone your new project and happy coding!
-
-> **NOTE**: **WAIT** until first CI run on github actions before cloning your new project.
-
-### What is included on this template?
-
-- 🖼️ Templates for starting multiple application types:
-  * **Basic low dependency** Python program (default) [use this template](https://github.com/rochacbruno/python-project-template/generate)
-  * **Flask** with database, admin interface, restapi and authentication [use this template](https://github.com/rochacbruno/flask-project-template/generate).
-  **or Run `make init` after cloning to generate a new project based on a template.**
-- 📦 A basic [setup.py](setup.py) file to provide installation, packaging and distribution for your project.  
-  Template uses setuptools because it's the de-facto standard for Python packages, you can run `make switch-to-poetry` later if you want.
-- 🤖 A [Makefile](Makefile) with the most useful commands to install, test, lint, format and release your project.
-- 📃 Documentation structure using [mkdocs](http://www.mkdocs.org)
-- 💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
-- 🐋 A simple [Containerfile](Containerfile) to build a container image for your project.  
-  `Containerfile` is a more open standard for building container images than Dockerfile, you can use buildah or docker with this file.
-- 🧪 Testing structure using [pytest](https://docs.pytest.org/en/latest/)
-- ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
-- 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
-- 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <humanlessai>` or `$ humanlessai` with basic CLI argument parsing.
-- 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
-
-> Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
-> If you want to contribute to this template please open an [issue](https://github.com/rochacbruno/python-project-template/issues) or fork and send a PULL REQUEST.
-
-[❤️ Sponsor this project](https://github.com/sponsors/rochacbruno/)
-
-<!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
-
----
-# humanlessai
-
-[![codecov](https://codecov.io/gh/hist0613/HumanLessAI/branch/main/graph/badge.svg?token=HumanLessAI_token_here)](https://codecov.io/gh/hist0613/HumanLessAI)
-[![CI](https://github.com/hist0613/HumanLessAI/actions/workflows/main.yml/badge.svg)](https://github.com/hist0613/HumanLessAI/actions/workflows/main.yml)
-
-Awesome humanlessai created by hist0613
-
-## Install it from PyPI
-
-```bash
-pip install humanlessai
-```
-
-## Usage
-
-```py
-from humanlessai import BaseClass
-from humanlessai import base_function
-
-BaseClass().base_method()
-base_function()
-```
-
-```bash
-$ python -m humanlessai
-#or
-$ humanlessai
-```
-
-## Development
-
-Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+## Plans
+1. Pre-training of BERT, RoBERTa, Longformer, GPT, and T5.
+2. Fine-tuning of machine translation models with state-of-the-art LLMs.
+3. 1M context length fine-tuning method.
+4. GPT-based data augmentation.
