@@ -15,11 +15,14 @@ Just remember the following things, to get involved in this project:
 ## Key Features (TBU)
 
 - **Dynamic Configuration Tracking**
+    - Ensure that the variable factor between two experiments is unique.
+    - Help to explore, compare, and collapse super complex configurations.
 - **AI Software Engineer**
 - **Experimental Hub**
 
 ## Plans
-1. Pre-training of BERT, RoBERTa, Longformer, GPT, and T5.
-2. Fine-tuning of machine translation models with state-of-the-art LLMs.
-3. 1M context length fine-tuning method.
-4. GPT-based data augmentation.
+- GPT/Claude/Gemini-based code review and research discussion.
+- Pre-training of BERT, RoBERTa, Longformer, GPT, and T5.
+- Fine-tuning of machine translation models with state-of-the-art LLMs.
+- 1M context length fine-tuning method.
+- GPT-based data augmentation.
