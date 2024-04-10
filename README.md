@@ -1,5 +1,7 @@
 # HumanLessAI
 
+> "Don't be afraid to restart, if there is a better way."
+
 ## Overview
 Just remember the following things, to get involved in this project: 
 - **Manage Everything That Matters**
