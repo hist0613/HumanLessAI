@@ -15,8 +15,9 @@ Just remember the following things, to get involved in this project:
 ## Key Features (TBU)
 
 - **Dynamic Configuration Tracking**
-    - Ensure that the variable factor between two experiments is unique.
-    - Help to explore, compare, and collapse super complex configurations.
+    - Ensure that the variable factor between two experiments is unique. 
+    - Help to explore, compare, and collapse super complex configurations. 
+    - Draw a successful experiment as a path in the tree of configurations.
 - **AI Software Engineer**
 - **Experimental Hub**
 
