@@ -24,7 +24,6 @@ Just remember the following things, to get involved in this project:
 - **Experimental Hub**
 
 ## Plans
-- arXiv Korean summarization with [EEVE](https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0).
 - arXiv HTML (experimental) page translator: Chrome extension
 - Practical readme.md generator for huggingface models
 - Mining unreached questions
@@ -33,3 +32,5 @@ Just remember the following things, to get involved in this project:
 - Fine-tuning of machine translation models with state-of-the-art LLMs.
 - 1M context length fine-tuning method.
 - GPT-based data augmentation.
+- arXiv Korean summarization with [EEVE](https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0).
+    - It cannot be used instead of GPT-4. 
