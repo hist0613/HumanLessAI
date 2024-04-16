@@ -25,6 +25,9 @@ Just remember the following things, to get involved in this project:
 
 ## Plans
 - arXiv Korean summarization with [EEVE](https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0).
+- arXiv HTML (experimental) page translator: Chrome extension
+- Practical readme.md generator for huggingface models
+- Mining unreached questions
 - GPT/Claude/Gemini-based code review and research discussion.
 - Pre-training of BERT, RoBERTa, Longformer, GPT, and T5.
 - Fine-tuning of machine translation models with state-of-the-art LLMs.
