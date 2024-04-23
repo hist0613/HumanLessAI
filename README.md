@@ -34,3 +34,5 @@ Just remember the following things, to get involved in this project:
 - GPT-based data augmentation.
 - arXiv Korean summarization with [EEVE](https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0).
     - It cannot be used instead of GPT-4. 
+- Participating challenges
+    - [EXALT@WASSA 2024](https://lt3.ugent.be/exalt/)
