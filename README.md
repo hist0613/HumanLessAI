@@ -24,6 +24,7 @@ Just remember the following things, to get involved in this project:
 - **Experimental Hub**
 
 ## Plans
+- MBTI of LLMs
 - arXiv HTML (experimental) page translator: Chrome extension
 - Practical readme.md generator for huggingface models
 - Mining unreached questions
